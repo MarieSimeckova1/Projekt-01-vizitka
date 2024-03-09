@@ -1,3 +1,121 @@
 /* nejsme vcerejsi, pouzivame moderni a intuitivni box model */
-html { box-sizing: border-box; }
-*, ::after, ::before { box-sizing: inherit; }
+html {
+  box-sizing: border-box;
+}
+*,
+::after,
+::before {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+}
+h1 {
+  font-family: Lucida Handwriting;
+  text-align: left;
+  font-size: 50px;
+  color: aliceblue;
+  padding: 200px;
+  background: url("foto/uvodni.jpg") no-repeat;
+  background-size: 1800px;
+}
+
+h2 {
+  color: rgb(96, 145, 180);
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 30px;
+}
+
+h3 {
+  color: rgb(96, 145, 180);
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+}
+p {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+}
+a {
+  font-family: Arial, Helvetica, sans-serif;
+}
+section{
+    padding:10px 200px;
+}
+.omne {
+  background-color: antiquewhite;
+}
+.omne img{
+    border-radius: 50%;
+    border:5px solid rgb(144, 165, 180);
+    float: left;
+    width: 250px;
+   margin: 20px;
+}
+header {
+  background-color: antiquewhite;
+  margin: none;
+  padding:20px;
+}
+.menu {
+    margin: 0;
+    text-align: center;
+    color: black;
+    background-color: antiquewhite;
+  }
+  
+  .menu li {
+    display: inline-block;
+    background-color: antiquewhite;
+    padding: 20px;
+  }
+  .menu a {
+    display: inline-block;
+    font-size: 20px;
+    font-style: italic;
+    text-decoration: none;
+    color: rgb(96, 145, 180);
+  }
+  .prace,.recenze{
+    background-color: rgb(248, 226, 198);
+  }
+  .prace img{
+    border-radius:5px;
+    border:5px solid rgb(144, 165, 180);
+  }
+  .pracovni img{
+    border-radius: 50%;
+    border:5px solid rgb(144, 165, 180);
+    float: right;
+    width: 250px;
+   margin: 20px;
+  }
+footer {
+  text-align: center;
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.kontakt {
+  margin: 0;
+  text-align: center;
+  color: black;
+  background-color: antiquewhite;
+}
+
+.kontakt li {
+  display: inline-block;
+  background-color: antiquewhite;
+  padding: 20px;
+}
+.kontakt a {
+  display: inline-block;
+  font-size: 20px;
+  font-style: italic;
+  text-decoration: none;
+  color: rgb(96, 145, 180);
+}
+span{
+    font-style:italic ;
+}
+
